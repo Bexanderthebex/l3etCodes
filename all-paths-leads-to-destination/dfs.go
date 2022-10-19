@@ -1,11 +1,5 @@
 package allpathsleadstodestination
 
-const (
-	WHITE = 0
-	GRAY  = 1
-	BLACK = 2
-)
-
 func leadsToDestination(n int, edges [][]int, source int, destination int) bool {
 	graph := make([][]int, n)
 	states := make([]int, n)
